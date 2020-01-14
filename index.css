@@ -3,7 +3,7 @@ a{
     color:yellowgreen;
 }
 
-#Navigation a{
+.Navigation a{
     padding: 15px;
     float:left;
 }
