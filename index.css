@@ -3,8 +3,14 @@ a{
     color:black;
 }
 
+.navbar{
+    width:100%;
+    height:50px;
+    background-color:rgba(216, 216, 216, 1);
+}
+
 .Navigation{
-    background-color:rgba(216, 216, 216, 0.5);
+    background-color:rgba(216, 216, 216, 1);
 }
 .Navigation a{
     padding: 15px;
