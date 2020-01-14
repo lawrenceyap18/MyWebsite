@@ -2,3 +2,8 @@ a{
     text-decoration:none;
     color:yellowgreen;
 }
+
+#Navigation a{
+    padding: 15px;
+    float:left;
+}
