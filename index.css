@@ -3,6 +3,9 @@ a{
     color:black;
 }
 
+.Navigation{
+    background-color:rgba(216, 216, 216, 0.5);
+}
 .Navigation a{
     padding: 15px;
     float:left;
