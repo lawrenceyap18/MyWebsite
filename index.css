@@ -15,9 +15,15 @@ a {
 
 .Navigation {
     background-color: rgba(216, 216, 216, 1);
+    float:left;
 }
 
 .Navigation a {
     padding: 15px;
     float: left;
+}
+
+.SearchEngine{
+    float:right;
+    padding:15px;
 }
