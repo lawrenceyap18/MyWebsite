@@ -14,16 +14,21 @@ a {
 }
 
 .Navigation {
-    background-color: rgba(216, 216, 216, 1);
-    float:left;
+    background-color: rgb(131, 95, 95);
+    float: left;
 }
 
 .Navigation a {
+    font-size:2vm;
     padding: 15px;
     float: left;
 }
 
-.SearchEngine{
-    float:right;
-    padding:15px;
+.SearchEngine {
+    float: right;
+    padding: 15px;
+}
+
+#slideshow{
+    text-align:center;
 }
