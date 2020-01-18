@@ -14,7 +14,6 @@ a {
 }
 
 .Navigation {
-    background-color: rgb(131, 95, 95);
     float: left;
 }
 
@@ -31,7 +30,10 @@ a {
 
 #slideshowbar{
     text-align:center;
-    margin:center;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    padding:50px;
     width:50%;
 
 }
