@@ -39,4 +39,7 @@ li {
 
 #Bottom{
     background-color:rgba(0,0,0,0.5);
+    margin-left:15%;
+    margin-right:15%;
+    display:inline-block;
 }
