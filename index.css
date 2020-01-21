@@ -43,3 +43,7 @@ li {
     margin-right:15%;
     display:inline-block;
 }
+
+#refer li{
+    text-align:left;
+}
