@@ -37,4 +37,6 @@ li {
     padding: 15px;
 }
 
-#slideshowbar {}
+#Bottom{
+    background-color:rgba(0,0,0,0.5);
+}
