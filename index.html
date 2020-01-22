@@ -31,20 +31,20 @@
 <!--This is the main section that put all of the content to display in html-->
 
 <body>
-    <div class="navbar">
-        <div class="Navigation">
-            <a href="index.html">
+    <div class="header">
+        <!--Navigation-->
+        <div class="navbar" role="navigation">
+            <a id="logo" href="index.html">
                 <img title="Logo of Belgium Coffee" src="Image/Belgium Coffee Logo.png" alt="Belgium_Coffee_Logo.png"
-                    height="50" width="50" /></a>
-            <a class="active" href="#Home">Home</a>
-            <a href="#Product">Product</a>
-            <a href="#AboutUs">About Us</a>
-            <a href="#ContactUs">Contact Us</a>
+                    height="65" width="65" /></a>
+            <div id="RightNav">
+                <a class="active" href="#Home">Home</a>
+                <a href="#Product">Product</a>
+                <a href="#AboutUs">About Us</a>
+                <a href="#ContactUs">Contact Us</a>
+            </div>
         </div>
-        <div class="SearchEngine">
-            <input type="text" placeholder="Search Here!">
-            <button type="submit">Submit</button>
-        </div>
+    </div>
     </div>
 
     <div id="Content">
@@ -85,13 +85,14 @@
                 </div>
 
                 <h2>Location</h2>
-                <address>
+                <p>
                     G-12-3A<br>
                     Plaza Arkadia<br>
                     Desa Park City<br>
-                </address>
+                </p>
             </div>
         </div>
+    </div>
     </div>
 </body>
 
