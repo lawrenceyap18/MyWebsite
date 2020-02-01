@@ -36,11 +36,12 @@ a:visited {
 }
 
 a:hover {
-    color: black;
+    color: rgb(216, 132, 76);
 }
 
 a:active {
-    color: red;
+    color: black;
+    background-color:white;
 }
 
 .header {
