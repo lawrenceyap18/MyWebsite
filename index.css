@@ -1,48 +1,50 @@
-html{
-    font-family:"century gothic";
-    color:white;
-    background-color:black;
+html {
+    font-family: "century gothic";
+    color: white;
+    background-color: black;
 }
 
-body{
-    background-image:url("Image/Coffee.jpg");
+body {
+    background-image: url("Image/Coffee.jpg");
     background-position: center;
     background-attachment: fixed;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    margin:0;
-    text-align:center;
+    margin: 0;
+    text-align: center;
 }
 
-li{
+li {
     list-style-type: none;
 }
 
-.navbar{
-    overflow:hidden;
+.navbar {
+    overflow: hidden;
 }
 
-.navbar a{
-    float:left;
-    text-align:center;
-    font-size:15px;
-    padding:14px 16px;
+.navbar a {
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    padding: 14px 16px;
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
-a:visited{
-    color:white;
+a:visited {
+    color: white;
 }
 
-a:hover{
-    color:black;
+a:hover {
+    color: black;
 }
 
-a:active{
-    color:red;
+a:active {
+    color: red;
 }
 
-.header{
-background-color:rgba(255, 255, 255,0.5);
+.header {
+    background-color: rgba(0, 0, 0, 1);
+    position: sticky;
+    top:0;
 }
