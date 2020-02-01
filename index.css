@@ -1,60 +1,48 @@
-body {
-    margin: 0;
-    color: white;
-    font-family: century gothic;
-    background-image: url("Image/Coffee.jpg");
-    background-repeat: no-repeat;
+html{
+    font-family:"century gothic";
+    color:white;
+    background-color:black;
+}
+
+body{
+    background-image:url("Image/Coffee.jpg");
+    background-position: center;
     background-attachment: fixed;
+    background-repeat:no-repeat;
     background-size: cover;
-    text-align: center;
-    text-shadow: rgb(0, 0, 0) 2px 2px;
+    margin:0;
+    text-align:center;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
-
-li {
+li{
     list-style-type: none;
 }
 
-.header {
-    min-height:90px;
-    background-color: rgba(255, 255, 255, 0.5);
-    top: 0;
-    position: sticky;
+.navbar{
+    overflow:hidden;
 }
 
 .navbar a{
-    font-size: 1.5vw;
-    padding: 15px;
-    float: left;
-}
-
-#RightNav{
-    float:right;
-    padding:15px;
-}
-
-#logo{
-    display:block;
-}
-
-#footer{
-    padding:80px 0;
-    color:white;
-    background-color: black;
-    position:relative;
-}
-
-#Bottom:after{
-        content: "";
-        display: table;
-        clear: both;
-}
-
-#refer li{
+    float:left;
     text-align:center;
+    font-size:15px;
+    padding:14px 16px;
+    text-decoration: none;
+    color:white;
+}
+
+a:visited{
+    color:white;
+}
+
+a:hover{
+    color:black;
+}
+
+a:active{
+    color:red;
+}
+
+.header{
+background-color:rgba(255, 255, 255,0.5);
 }
