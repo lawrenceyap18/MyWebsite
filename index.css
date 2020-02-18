@@ -40,8 +40,11 @@ a:visited {
     color: white;
 }
 
-a:hover {
-    color: rgb(216, 132, 76);
+.container a:hover, a:hover {
+    color: black;
+    background-color: white;
+    text-shadow: none;
+    transition: 0.5s;
 }
 
 a:active {
@@ -51,7 +54,7 @@ a:active {
 
 * {
     box-sizing: border-box;
-  }
+}
 
 div.gallery {
     border: 1px solid #ccc;
@@ -98,7 +101,22 @@ div.gallery img {
 }
 
 #footer {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.226);
     padding: 1%;
-    margin-top:5%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.container {
+    margin: 10px 14px;
+    text-align: center;
+    display: inline;
+}
+
+.container a {
+    color: white;
+}
+
+.container ul {
+    padding: 0;
 }
